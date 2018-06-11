@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A2D683520CE8A9700C986E3 /* SQRPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D683420CE8A9700C986E3 /* SQRPayTests.m */; };
+		9A2D684020CE8A9700C986E3 /* SQRPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D683F20CE8A9700C986E3 /* SQRPayUITests.m */; };
+		9A2D685920CE8AD100C986E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D684F20CE8AD100C986E3 /* AppDelegate.m */; };
+		9A2D685A20CE8AD100C986E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D685020CE8AD100C986E3 /* Assets.xcassets */; };
+		9A2D685B20CE8AD100C986E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D685120CE8AD100C986E3 /* LaunchScreen.storyboard */; };
+		9A2D685C20CE8AD100C986E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D685320CE8AD100C986E3 /* Main.storyboard */; };
+		9A2D685D20CE8AD100C986E3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D685520CE8AD100C986E3 /* Info.plist */; };
+		9A2D685E20CE8AD100C986E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D685620CE8AD100C986E3 /* main.m */; };
+		9A2D685F20CE8AD100C986E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D685820CE8AD100C986E3 /* ViewController.m */; };
+		9A2D686A20CE8AD600C986E3 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D686220CE8AD600C986E3 /* AlipaySDK.bundle */; };
+		9A2D686B20CE8AD600C986E3 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D686320CE8AD600C986E3 /* AlipaySDK.framework */; };
+		9A2D686C20CE8AD600C986E3 /* SQRPayApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2D686520CE8AD600C986E3 /* SQRPayApi.m */; };
+		9A2D686D20CE8AD600C986E3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D686720CE8AD600C986E3 /* libWeChatSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A2D683120CE8A9700C986E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2D681020CE8A9600C986E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2D681720CE8A9600C986E3;
+			remoteInfo = SQRPay;
+		};
+		9A2D683C20CE8A9700C986E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2D681020CE8A9600C986E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2D681720CE8A9600C986E3;
+			remoteInfo = SQRPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A2D681820CE8A9600C986E3 /* SQRPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2D683020CE8A9700C986E3 /* SQRPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2D683420CE8A9700C986E3 /* SQRPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRPayTests.m; sourceTree = "<group>"; };
+		9A2D683620CE8A9700C986E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2D683B20CE8A9700C986E3 /* SQRPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQRPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2D683F20CE8A9700C986E3 /* SQRPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRPayUITests.m; sourceTree = "<group>"; };
+		9A2D684120CE8A9700C986E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2D684E20CE8AD100C986E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A2D684F20CE8AD100C986E3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A2D685020CE8AD100C986E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A2D685220CE8AD100C986E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A2D685420CE8AD100C986E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A2D685520CE8AD100C986E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2D685620CE8AD100C986E3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A2D685720CE8AD100C986E3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A2D685820CE8AD100C986E3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A2D686220CE8AD600C986E3 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		9A2D686320CE8AD600C986E3 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		9A2D686420CE8AD600C986E3 /* SQRPayApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRPayApi.h; sourceTree = "<group>"; };
+		9A2D686520CE8AD600C986E3 /* SQRPayApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRPayApi.m; sourceTree = "<group>"; };
+		9A2D686720CE8AD600C986E3 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		9A2D686820CE8AD600C986E3 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		9A2D686920CE8AD600C986E3 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A2D681520CE8A9600C986E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2D686D20CE8AD600C986E3 /* libWeChatSDK.a in Frameworks */,
+				9A2D686B20CE8AD600C986E3 /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2D682D20CE8A9700C986E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2D683820CE8A9700C986E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A2D680F20CE8A9600C986E3 = {
+			isa = PBXGroup;
+			children = (
+				9A2D684D20CE8AD100C986E3 /* SQRPayExample */,
+				9A2D683320CE8A9700C986E3 /* SQRPayTests */,
+				9A2D683E20CE8A9700C986E3 /* SQRPayUITests */,
+				9A2D681920CE8A9600C986E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A2D681920CE8A9600C986E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D681820CE8A9600C986E3 /* SQRPay.app */,
+				9A2D683020CE8A9700C986E3 /* SQRPayTests.xctest */,
+				9A2D683B20CE8A9700C986E3 /* SQRPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A2D683320CE8A9700C986E3 /* SQRPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D683420CE8A9700C986E3 /* SQRPayTests.m */,
+				9A2D683620CE8A9700C986E3 /* Info.plist */,
+			);
+			path = SQRPayTests;
+			sourceTree = "<group>";
+		};
+		9A2D683E20CE8A9700C986E3 /* SQRPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D683F20CE8A9700C986E3 /* SQRPayUITests.m */,
+				9A2D684120CE8A9700C986E3 /* Info.plist */,
+			);
+			path = SQRPayUITests;
+			sourceTree = "<group>";
+		};
+		9A2D684D20CE8AD100C986E3 /* SQRPayExample */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D686020CE8AD600C986E3 /* SQRPay */,
+				9A2D684E20CE8AD100C986E3 /* AppDelegate.h */,
+				9A2D684F20CE8AD100C986E3 /* AppDelegate.m */,
+				9A2D685020CE8AD100C986E3 /* Assets.xcassets */,
+				9A2D685120CE8AD100C986E3 /* LaunchScreen.storyboard */,
+				9A2D685320CE8AD100C986E3 /* Main.storyboard */,
+				9A2D685520CE8AD100C986E3 /* Info.plist */,
+				9A2D685620CE8AD100C986E3 /* main.m */,
+				9A2D685720CE8AD100C986E3 /* ViewController.h */,
+				9A2D685820CE8AD100C986E3 /* ViewController.m */,
+			);
+			path = SQRPayExample;
+			sourceTree = "<group>";
+		};
+		9A2D686020CE8AD600C986E3 /* SQRPay */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D686120CE8AD600C986E3 /* ALiPaySDK */,
+				9A2D686420CE8AD600C986E3 /* SQRPayApi.h */,
+				9A2D686520CE8AD600C986E3 /* SQRPayApi.m */,
+				9A2D686620CE8AD600C986E3 /* WeiChatSDK */,
+			);
+			path = SQRPay;
+			sourceTree = SOURCE_ROOT;
+		};
+		9A2D686120CE8AD600C986E3 /* ALiPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D686220CE8AD600C986E3 /* AlipaySDK.bundle */,
+				9A2D686320CE8AD600C986E3 /* AlipaySDK.framework */,
+			);
+			path = ALiPaySDK;
+			sourceTree = "<group>";
+		};
+		9A2D686620CE8AD600C986E3 /* WeiChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9A2D686720CE8AD600C986E3 /* libWeChatSDK.a */,
+				9A2D686820CE8AD600C986E3 /* WXApi.h */,
+				9A2D686920CE8AD600C986E3 /* WXApiObject.h */,
+			);
+			path = WeiChatSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A2D681720CE8A9600C986E3 /* SQRPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2D684420CE8A9700C986E3 /* Build configuration list for PBXNativeTarget "SQRPay" */;
+			buildPhases = (
+				9A2D681420CE8A9600C986E3 /* Sources */,
+				9A2D681520CE8A9600C986E3 /* Frameworks */,
+				9A2D681620CE8A9600C986E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQRPay;
+			productName = SQRPay;
+			productReference = 9A2D681820CE8A9600C986E3 /* SQRPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A2D682F20CE8A9700C986E3 /* SQRPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2D684720CE8A9700C986E3 /* Build configuration list for PBXNativeTarget "SQRPayTests" */;
+			buildPhases = (
+				9A2D682C20CE8A9700C986E3 /* Sources */,
+				9A2D682D20CE8A9700C986E3 /* Frameworks */,
+				9A2D682E20CE8A9700C986E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2D683220CE8A9700C986E3 /* PBXTargetDependency */,
+			);
+			name = SQRPayTests;
+			productName = SQRPayTests;
+			productReference = 9A2D683020CE8A9700C986E3 /* SQRPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A2D683A20CE8A9700C986E3 /* SQRPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2D684A20CE8A9700C986E3 /* Build configuration list for PBXNativeTarget "SQRPayUITests" */;
+			buildPhases = (
+				9A2D683720CE8A9700C986E3 /* Sources */,
+				9A2D683820CE8A9700C986E3 /* Frameworks */,
+				9A2D683920CE8A9700C986E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2D683D20CE8A9700C986E3 /* PBXTargetDependency */,
+			);
+			name = SQRPayUITests;
+			productName = SQRPayUITests;
+			productReference = 9A2D683B20CE8A9700C986E3 /* SQRPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A2D681020CE8A9600C986E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = PR;
+				TargetAttributes = {
+					9A2D681720CE8A9600C986E3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9A2D682F20CE8A9700C986E3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9A2D681720CE8A9600C986E3;
+					};
+					9A2D683A20CE8A9700C986E3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9A2D681720CE8A9600C986E3;
+					};
+				};
+			};
+			buildConfigurationList = 9A2D681320CE8A9600C986E3 /* Build configuration list for PBXProject "SQRPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A2D680F20CE8A9600C986E3;
+			productRefGroup = 9A2D681920CE8A9600C986E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A2D681720CE8A9600C986E3 /* SQRPay */,
+				9A2D682F20CE8A9700C986E3 /* SQRPayTests */,
+				9A2D683A20CE8A9700C986E3 /* SQRPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A2D681620CE8A9600C986E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2D686A20CE8AD600C986E3 /* AlipaySDK.bundle in Resources */,
+				9A2D685D20CE8AD100C986E3 /* Info.plist in Resources */,
+				9A2D685C20CE8AD100C986E3 /* Main.storyboard in Resources */,
+				9A2D685A20CE8AD100C986E3 /* Assets.xcassets in Resources */,
+				9A2D685B20CE8AD100C986E3 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2D682E20CE8A9700C986E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2D683920CE8A9700C986E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A2D681420CE8A9600C986E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2D686C20CE8AD600C986E3 /* SQRPayApi.m in Sources */,
+				9A2D685F20CE8AD100C986E3 /* ViewController.m in Sources */,
+				9A2D685E20CE8AD100C986E3 /* main.m in Sources */,
+				9A2D685920CE8AD100C986E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2D682C20CE8A9700C986E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2D683520CE8A9700C986E3 /* SQRPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2D683720CE8A9700C986E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2D684020CE8A9700C986E3 /* SQRPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A2D683220CE8A9700C986E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A2D681720CE8A9600C986E3 /* SQRPay */;
+			targetProxy = 9A2D683120CE8A9700C986E3 /* PBXContainerItemProxy */;
+		};
+		9A2D683D20CE8A9700C986E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A2D681720CE8A9600C986E3 /* SQRPay */;
+			targetProxy = 9A2D683C20CE8A9700C986E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A2D685120CE8AD100C986E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2D685220CE8AD100C986E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A2D685320CE8AD100C986E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2D685420CE8AD100C986E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A2D684220CE8A9700C986E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A2D684320CE8A9700C986E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A2D684520CE8A9700C986E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQRPay/ALiPaySDK",
+				);
+				INFOPLIST_FILE = SQRPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQRPay/WeiChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A2D684620CE8A9700C986E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQRPay/ALiPaySDK",
+				);
+				INFOPLIST_FILE = SQRPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQRPay/WeiChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A2D684820CE8A9700C986E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQRPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQRPay.app/SQRPay";
+			};
+			name = Debug;
+		};
+		9A2D684920CE8A9700C986E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQRPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQRPay.app/SQRPay";
+			};
+			name = Release;
+		};
+		9A2D684B20CE8A9700C986E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQRPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQRPay;
+			};
+			name = Debug;
+		};
+		9A2D684C20CE8A9700C986E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQRPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shequren.SQRPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQRPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A2D681320CE8A9600C986E3 /* Build configuration list for PBXProject "SQRPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2D684220CE8A9700C986E3 /* Debug */,
+				9A2D684320CE8A9700C986E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2D684420CE8A9700C986E3 /* Build configuration list for PBXNativeTarget "SQRPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2D684520CE8A9700C986E3 /* Debug */,
+				9A2D684620CE8A9700C986E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2D684720CE8A9700C986E3 /* Build configuration list for PBXNativeTarget "SQRPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2D684820CE8A9700C986E3 /* Debug */,
+				9A2D684920CE8A9700C986E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2D684A20CE8A9700C986E3 /* Build configuration list for PBXNativeTarget "SQRPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2D684B20CE8A9700C986E3 /* Debug */,
+				9A2D684C20CE8A9700C986E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A2D681020CE8A9600C986E3 /* Project object */;
+}
