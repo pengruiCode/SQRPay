@@ -36,7 +36,6 @@
 		9A2D689C20D0B8CA00C986E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D689B20D0B8CA00C986E3 /* AVFoundation.framework */; };
 		9A2D68AE20D0B94F00C986E3 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D68A820D0B94F00C986E3 /* AlipaySDK.bundle */; };
 		9A2D68AF20D0B94F00C986E3 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D68A920D0B94F00C986E3 /* AlipaySDK.framework */; };
-		9A2D68B020D0B94F00C986E3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D68AB20D0B94F00C986E3 /* libWeChatSDK.a */; };
 		9A2D68B220D0BB5200C986E3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2D68B120D0BB5200C986E3 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
@@ -95,9 +94,6 @@
 		9A2D689B20D0B8CA00C986E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9A2D68A820D0B94F00C986E3 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		9A2D68A920D0B94F00C986E3 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		9A2D68AB20D0B94F00C986E3 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		9A2D68AC20D0B94F00C986E3 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		9A2D68AD20D0B94F00C986E3 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		9A2D68B120D0BB5200C986E3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -121,7 +117,6 @@
 				9A2D688A20D0B3A100C986E3 /* Foundation.framework in Frameworks */,
 				9A2D688820D0B39900C986E3 /* UIKit.framework in Frameworks */,
 				9A2D688420D0B38800C986E3 /* CoreText.framework in Frameworks */,
-				9A2D68B020D0B94F00C986E3 /* libWeChatSDK.a in Frameworks */,
 				9A2D688220D0B38100C986E3 /* QuartzCore.framework in Frameworks */,
 				9A2D688020D0B37800C986E3 /* CoreTelephony.framework in Frameworks */,
 				9A2D687E20D0B36F00C986E3 /* SystemConfiguration.framework in Frameworks */,
@@ -208,7 +203,6 @@
 				9A2D686420CE8AD600C986E3 /* SQRPayApi.h */,
 				9A2D686520CE8AD600C986E3 /* SQRPayApi.m */,
 				9A2D68A720D0B94F00C986E3 /* ALiPaySDK */,
-				9A2D68AA20D0B94F00C986E3 /* WeiChatSDK */,
 			);
 			path = SQRPay;
 			sourceTree = SOURCE_ROOT;
@@ -245,16 +239,6 @@
 				9A2D68A920D0B94F00C986E3 /* AlipaySDK.framework */,
 			);
 			path = ALiPaySDK;
-			sourceTree = "<group>";
-		};
-		9A2D68AA20D0B94F00C986E3 /* WeiChatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				9A2D68AB20D0B94F00C986E3 /* libWeChatSDK.a */,
-				9A2D68AC20D0B94F00C986E3 /* WXApi.h */,
-				9A2D68AD20D0B94F00C986E3 /* WXApiObject.h */,
-			);
-			path = WeiChatSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRPay"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary  	 = '支付'
   s.homepage     = "https://github.com/pengruiCode/SQRPay.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -15,7 +15,10 @@ Pod::Spec.new do |s|
                    DESC
 
   s.resource            = 'SQRPay/ALiPaySDK/AlipaySDK.bundle'
-  s.vendored_libraries  = 'SQRPay/WeiChatSDK/*.a'
   s.vendored_frameworks = 'SQRPay/ALiPaySDK/*.framework'
+
+  s.subspec "WechatOpenSDK" do |ss|
+     ss.dependency "WechatOpenSDK"
+  end
 
  end
