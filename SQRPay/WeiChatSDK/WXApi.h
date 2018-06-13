@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "WXApiObject.h"
-
+@import UIKit;
 
 #pragma mark - WXApiDelegate
 /*! @brief 接收并处理来自微信终端程序的事件消息

@@ -7,7 +7,6 @@
 //
 
 #import "SQRPayApi.h"
-//#import <ShareSDK3/WXApi.h>
 #import "WXApi.h"
 #import <AlipaySDK/AlipaySDK.h>
 

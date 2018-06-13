@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRPay"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary  	 = '支付'
   s.homepage     = "https://github.com/pengruiCode/SQRPay.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
