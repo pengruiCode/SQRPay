@@ -150,9 +150,9 @@
 		9A2D686020CE8AD600C986E3 /* SQRPay */ = {
 			isa = PBXGroup;
 			children = (
-				9A2D686120CE8AD600C986E3 /* ALiPaySDK */,
 				9A2D686420CE8AD600C986E3 /* SQRPayApi.h */,
 				9A2D686520CE8AD600C986E3 /* SQRPayApi.m */,
+				9A2D686120CE8AD600C986E3 /* ALiPaySDK */,
 				9A2D686620CE8AD600C986E3 /* WeiChatSDK */,
 			);
 			path = SQRPay;
@@ -482,11 +482,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JT4ZMJ42;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SQRPay/ALiPaySDK",
 				);
-				INFOPLIST_FILE = SQRPay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SQRPayExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,11 +507,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JT4ZMJ42;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SQRPay/ALiPaySDK",
 				);
-				INFOPLIST_FILE = SQRPay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SQRPayExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

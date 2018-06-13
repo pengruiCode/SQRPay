@@ -13,4 +13,9 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 			实现支付宝和微信支付
                    DESC
+
+  s.resource            = 'SQRPay/ALiPaySDK/AlipaySDK.bundle'
+  s.vendored_libraries  = 'SQRPay/WeiChatSDK/*.a'
+  s.vendored_frameworks = 'SQRPay/ALiPaySDK/*.framework'
+
  end
