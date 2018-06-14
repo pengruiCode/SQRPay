@@ -65,9 +65,9 @@ static id _instance;
         self.PaySuccess = successBlock;
         self.PayError = failBlock;
         
-//        NSArray *array = [[UIApplication sharedApplication] windows];
-//        UIWindow* win=[array objectAtIndex:0];
-//        [win setHidden:NO];
+        NSArray *array = [[UIApplication sharedApplication] windows];
+        UIWindow* win=[array objectAtIndex:0];
+        [win setHidden:NO];
         
         [[AlipaySDK defaultService] payOrder:param fromScheme:appScheme callback:^(NSDictionary *resultDic) {
             NSLog(@"----- %@",resultDic);
